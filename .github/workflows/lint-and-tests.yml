@@ -14,10 +14,10 @@ name: Linting and Tests
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
   merge_group:
 
 # The permissions specified below apply to workflows triggered by `merge_group`, `push`, and `pull_request` events that originate from the same repository (non-fork).
